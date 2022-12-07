@@ -1,6 +1,7 @@
 import React, {useState} from 'react'
+import './todo.css'
 
-export default function App() {
+export default function Todo() {
 
   const [tareas, setTareas] = useState([])
 
